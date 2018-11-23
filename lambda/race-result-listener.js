@@ -4,6 +4,7 @@ const RACE_QUEUE = 'race-result-queue'
 const HAMSTERS_TABLE = 'hamsters'
 
 AWS.config.update({ region: 'us-east-1' })
+//this is a test change to commit
 
 const sqs = new AWS.SQS()
 const client = new AWS.DynamoDB.DocumentClient()
